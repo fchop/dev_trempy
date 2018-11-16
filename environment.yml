@@ -1,0 +1,17 @@
+name: dev_trempy
+
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - statsmodels
+  - pytest
+  - pytest-xdist
+  - pytest-cov
+  - scipy
+  - matplotlib
+  - seaborn
+  - flake8
+  - pip
+  - pip:
+      - codecov
