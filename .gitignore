@@ -1,3 +1,9 @@
 *.pyc
 .idea
 *.pbs
+*.info
+*.log
+*.ini
+*.pkl
+*.prof
+*-checkpoint.ipynb
