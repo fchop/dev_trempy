@@ -15,7 +15,7 @@ version = 'nonstationary'
 # ... do something ...
 os.chdir('estimate_most_favorable')
 
-pertubation_robustness_all(version=version, max_dist=0.75, set_std_to=5.0,
+pertubation_robustness_all(version=version, max_dist=0.75, set_std_to=20.0,
                            no_temporal_choices=False)
 
 df_truth = pd.read_pickle(r'truth.trempy.pkl')
